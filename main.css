@@ -1,0 +1,40 @@
+#slider{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#precedent, #suivant {
+    cursor: pointer;
+
+    position: absolute;
+    top: 300px;
+    font-size: 100px;
+    color: rgba(220, 220, 220, 0.8);
+
+    padding: 10px;
+}
+
+#precedent {
+    float: right;
+    margin-top: -12rem;
+    width: 5vw;
+    height: 18vh;
+    margin-left:65rem;
+}
+.img1 {
+
+    width: 5vw;
+    height: 5vh;
+}
+#suivant {
+    right: 0;
+    left: 5vw;
+    margin-top: -13rem;
+    width: 5vw;
+    height: 18vh;
+}
